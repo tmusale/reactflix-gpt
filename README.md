@@ -1,3 +1,7 @@
+### Reactflix GPT
+    -   Create React App
+    -   Configured
+
 ### Features
     - Login / Sign Up
       - Sign In / Sign UP form
