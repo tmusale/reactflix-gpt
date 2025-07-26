@@ -1,6 +1,8 @@
 ### Reactflix GPT
     -   Create React App
-    -   Configured
+    -   Configured TalwindCSS
+    -   Header
+    -   Login Form
 
 ### Features
     - Login / Sign Up
