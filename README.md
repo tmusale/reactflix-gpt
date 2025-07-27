@@ -2,7 +2,18 @@
     -   Create React App
     -   Configured TalwindCSS
     -   Header
+    -   Routing of APP
     -   Login Form
+    -   Sign up form
+    -   Form validation
+    -   useRef Hook
+    -   Firebase setup
+    -   Deploying our app to production
+    -   Create Signup User Account
+    -   Implement Sign In user API
+    -   created Redux store with userSlice
+    -   Implemented sign out
+    -   update profile
 
 ### Features
     - Login / Sign Up
