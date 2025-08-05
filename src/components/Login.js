@@ -10,7 +10,7 @@ import { auth } from "../utils/firebase";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
-import { AVATAR_URL } from "../utils/constants";
+import { AVATAR_URL, BG_IMG_URL } from "../utils/constants";
 
 const Login = () => {
   // const navigate = useNavigate();
@@ -93,10 +93,7 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/258d0f77-2241-4282-b613-8354a7675d1a/web/IN-en-20250721-TRIFECTA-perspective_cadc8408-df6e-4313-a05d-daa9dcac139f_large.jpg"
-          alt="bg-img"
-        />
+        <img src={BG_IMG_URL} alt="bg-img" />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
