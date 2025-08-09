@@ -13,7 +13,7 @@ function SecondaryContainer() {
        * MovieList - Trending
        * MovieList - Horror
        */}
-      <div className="-mt-48 relative z-20">
+      <div className="mt-0 md:-mt-48 relative z-20">
         <MovieList
           title="Now Playing Movies"
           movies={movies.nowPlayingMovies}

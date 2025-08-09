@@ -4,14 +4,14 @@ import React from "react";
 
 function VideoTitle({ title, overview }) {
   return (
-    <div className="pt-[15%] px-12 absolute text-white w-screen aspect-video bg-gradient-to-r from-black">
-      <h1 className="text-6xl font-bold">{title}</h1>
-      <p className="py-6 text-lg w-2/4">{overview}</p>
-      <div className="flex gap-3">
-        <button className="bg-white p-4 px-12 text-xl text-black font-bold rounded-lg hover:bg-opacity-80">
+    <div className="pt-[15%] px-6 md:px-12 absolute text-white w-screen aspect-video bg-gradient-to-r from-black">
+      <h1 className="text-2xl md:text-6xl font-bold">{title}</h1>
+      <p className="hidden md:inline-block py-6 text-lg w-2/4">{overview}</p>
+      <div className="flex gap-3 my-4 md:m-0">
+        <button className="bg-white py-2 md:py-4 px-6 md:px-12 text-xl text-black font-bold rounded-lg hover:bg-opacity-80">
           <FontAwesomeIcon icon={faPlay} /> Play
         </button>
-        <button className="bg-gray-500 p-4 px-12 text-xl text-white rounded-lg hover:bg-opacity-80">
+        <button className="hidden md:inline-block bg-gray-500 p-4 px-12 text-xl text-white rounded-lg hover:bg-opacity-80">
           <FontAwesomeIcon icon={faInfoCircle} /> More Info
         </button>
       </div>

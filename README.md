@@ -36,7 +36,16 @@
     -   usePopularMovies, useTopRatedMovies,useUpcomingMovies Custiom hooks
     -   GPT search Page
     -   GPT search Bar
-    -   *** made GPT search page Multi-language 
+    -   *** made GPT search page Multi-language
+    -   Get open AI API key
+    -   GPT  search API call
+    -   fetch GPTMovieSuggestions from TMDB
+    -   created GptSlice added data
+    -   Reused Movie List compoennt to make suggestion container
+    -   Memoization
+    -   Added .env file
+    -   Added .env file to gitignore
+    -   Made our Application responsive
 
 ### Features
     - Login / Sign Up
