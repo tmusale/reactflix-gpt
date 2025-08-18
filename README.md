@@ -119,6 +119,7 @@ Reactflix GPT is a **Netflix-inspired movie streaming web application** built wi
 
 ## 📂 Project Structure
 
+```
 src/
 ┣ components/ # Reusable UI components (Header, MovieCard, MovieList, etc.)
 ┣ hooks/ # Custom hooks (useNowPlayingMovies, usePopularMovies, etc.)
@@ -127,23 +128,28 @@ src/
 ┣ utils/ # Constants, API helpers
 ┣ App.js # Routing setup
 ┣ index.js # Entry point
+```
 
 ### Install Dependencies
 
-- npm install
-
-# or
-
-- yarn install
+```
+  npm install
+  or
+  yarn install
+```
 
 ### Setup Environment Variables
 
-REACT_APP_OPENAI_KEY=your_openai_api_key
-REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+```
+  REACT_APP_OPENAI_KEY=your_openai_api_key
+  REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+```
 
 ### Run the Development Server
 
+```
 npm start
+```
 
 ### Firebase Setup
 
@@ -157,6 +163,8 @@ npm start
 
 ### Deployment
 
-- firebase login
-- firebase init
-- firebase deploy
+```
+  firebase login
+  firebase init
+  firebase deploy
+```
