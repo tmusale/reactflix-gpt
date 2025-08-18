@@ -1,4 +1,5 @@
 ### Reactflix GPT
+
     -   Create React App
     -   Configured TalwindCSS
     -   Header
@@ -48,6 +49,7 @@
     -   Made our Application responsive
 
 ### Features
+
     - Login / Sign Up
       - Sign In / Sign UP form
       - redirect to browse page
@@ -61,3 +63,100 @@
     - NetflixGPT
       - Search Bar
       - Movie suggestions
+
+# 🎬 Reactflix GPT
+
+Reactflix GPT is a **Netflix-inspired movie streaming web application** built with **React, TailwindCSS, Firebase, Redux, and OpenAI GPT**. It fetches live movie data from **TMDB API** and integrates **AI-powered movie search** using GPT. The app provides a seamless streaming-like experience with authentication, responsive UI, and multi-language GPT-powered recommendations.
+
+---
+
+## 🚀 Features
+
+### 🔐 Authentication
+
+- Login / Sign Up with Firebase
+- Form validation with error handling
+- Update user profile (display name & profile picture)
+- Persistent session with `onAuthStateChanged`
+- Auto-redirect:
+  - Non-logged-in users → Login Page
+  - Logged-in users → Browse Page
+
+### 🎥 Browse Experience
+
+- Responsive **Netflix-like UI** with **TailwindCSS**
+- Header navigation
+- Main movie container with:
+  - Background trailer (autoplay & mute)
+  - Title & description
+- Movie suggestions with reusable **Movie List** & **Movie Card** components
+- Fetches from TMDB:
+  - Now Playing
+  - Popular
+  - Top Rated
+  - Upcoming
+
+### 🤖 NetflixGPT
+
+- AI-powered search using **OpenAI GPT API**
+- Multi-language GPT search support
+- Fetches movie suggestions from TMDB
+- Displays results using reusable Movie List component
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (CRA)
+- **Redux Toolkit** for state management
+- **TailwindCSS** for styling
+- **Firebase** for Authentication & Hosting
+- **TMDB API** for movie data
+- **YouTube Embed API** for trailers
+- **OpenAI GPT API** for AI-powered search
+
+---
+
+## 📂 Project Structure
+
+src/
+┣ components/ # Reusable UI components (Header, MovieCard, MovieList, etc.)
+┣ hooks/ # Custom hooks (useNowPlayingMovies, usePopularMovies, etc.)
+┣ store/ # Redux slices (userSlice, movieSlice, gptSlice)
+┣ pages/ # Page-level components (Login, Browse, NetflixGPT)
+┣ utils/ # Constants, API helpers
+┣ App.js # Routing setup
+┣ index.js # Entry point
+
+### Install Dependencies
+
+- npm install
+
+# or
+
+- yarn install
+
+### Setup Environment Variables
+
+REACT_APP_OPENAI_KEY=your_openai_api_key
+REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+
+### Run the Development Server
+
+npm start
+
+### Firebase Setup
+
+1. Go to [Firebase Console](https://console.firebase.google.com/)
+2. Create a new project
+3. Add a web application to your project
+4. Enable Authentication (Email/Password and Google Sign-in)
+5. Get your Firebase configuration:
+   - Go to Project Settings > General
+   - Scroll down to "Your apps" section
+
+### Deployment
+
+- firebase login
+- firebase init
+- firebase deploy
